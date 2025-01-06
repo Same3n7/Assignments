@@ -1,0 +1,329 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and general layout */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Styling for the navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0cb3b3;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo a {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo image styling */
+  .logo-img {
+    height: 40px; /* Adjust the height of the logo */
+    width: auto;
+    margin-right: 15px; /* Space between logo and text */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the links */
+  .navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .navbar ul {
+      margin-top: 10px;
+      flex-direction: column;
+    }
+  
+    .navbar ul li {
+      margin: 10px 0;
+    }
+  }
+  /* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Section styling */
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  /* Left side: Text content */
+  .intro-text {
+    max-width: 50%; /* Text will take up half of the section */
+  }
+  
+  .intro h1 {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .intro .description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  /* Right side: Image styling */
+  .intro-image {
+    max-width: 40%; /* Image will take up 40% of the section */
+  }
+  
+  .intro-image .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: To give the image rounded corners */
+  }
+  
+  /* Optional: Add some styling for responsiveness */
+  @media (max-width: 768px) {
+    .intro {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .intro-text {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .intro h1 {
+      font-size: 28px;
+    }
+  
+    .intro .description {
+      font-size: 16px;
+    }
+  
+    .intro-image {
+      max-width: 80%;
+    }
+  }
+  /* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set general font and background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+/* Footer Container */
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Footer Sections */
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-section p, .footer-section a {
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+.footer-section a {
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #222;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+}
+.main-selling-items {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-selling-items h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Container for the items */
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual item styling */
+.item {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.item h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #333;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e67e22;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  margin: 15px 0;
+}
+
+button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2ecc71;
+}
+.span-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Styling for individual span elements */
+.span-item {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.span-item:hover {
+  background-color: #2980b9;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

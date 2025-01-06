@@ -1,0 +1,160 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0cb3b3;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo a {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo image styling */
+  .logo-img {
+    height: 40px; /* Adjust the height of the logo */
+    width: auto;
+    margin-right: 15px; /* Space between logo and text */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the links */
+  .navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+  
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Services Page */
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service h2 {
+    margin-top: 0;
+}
+
+/* Contact Page */
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Profile Page */
+.profile {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile h1 {
+    margin-bottom: 20px;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ddd;
+}
+
+.bio {
+    max-width: 600px;
+    text-align: left;
+}
